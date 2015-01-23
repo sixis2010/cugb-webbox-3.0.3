@@ -1,0 +1,14 @@
+#include ".\mainFrame.css"#include ".\mainFrame.res"<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-布局页文件-->
+<page>
+    <picture id="@ID_PAGE2" left="0" top="44" width="320" height="320" styleClass="CSS_PAGE2" eleType="element">
+        <edit id="@ID_SSID" left="73" top="52" width="170" height="30" styleClass="CSS_EDIT" />
+        <edit id="@ID_PSW" left="73" top="98" width="170" height="30" styleClass="CSS_EDIT" />
+        <button id="@ID_BT_START" left="59" top="222" width="200" height="50" styleClass="CSS_BT_COMMON" value="启动热点" />
+        <check id="@ID_AUTOLOGIN" left="207" top="146" width="34" height="21" styleClass="CSS_Check" />
+        <check id="@ID_REM" left="207" top="177" width="34" height="21" styleClass="CSS_Check" />
+        <static id="@ID_STATIC6" left="73" top="146" width="66" height="20" styleClass="CSS_STATIC" value="自动开启" />
+        <static id="@ID_STATIC7" left="73" top="178" width="68" height="20" styleClass="CSS_STATIC" value="显示密码" />
+    </picture>
+    <reference />
+</page>

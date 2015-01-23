@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<style>
+    <button type="all" name="CSS_button" />
+    <window type="all" name="CSS_mainFrame" captionHeight="0"  bDragBorder="0"   bMaxButton="0" bMinButton="0" bCloseButton="0" imageNC="image/wallpaper.png"  image_caption=".\360\image\title.png" />
+    <static type="class"  name="CSS_STATIC1" bTransparent="true" textColor="#F2CA0D" />
+    <static type="class"  name="CSS_CAPTION" bTransparent="true" textColor="#FFFFFF" />
+    <picture type="class" name="CSS_PAGE" bTransparent="true" />
+	<picture type="class" name="CSS_PAGE2" bTransparent="true"  bFocus="false" image="image/bg1.png"/>
+	<picture type="class" name="CSS_PAGE3" bTransparent="true"  bFocus="false" image="image/group.png"/>
+    <check type="class"  name="CSS_Check" bFocus="false" bTransparent="true" bCheck="true" />
+    <picture type="class" name="CSS_BG" bTransparent="true" image="image/bg1.png" />
+	<picture type="class" name="CSS_RIBBON" bTransparent="true" image="image/ribbon3.png" />
+    <edit type="class"   name="CSS_EDIT" bTransparent="true" bFocus="true" bBorder="true"/>
+	
+    <button type="id" id="@IDB_TAB1" name="CSS_TAB1" bFocus="false" bTransparent="true" textColor="#FFFFFF" bCheck="false" textAlign="center|top" iconAlign="top" icon="image/dribble.png" image_leave="image/transparent.png" image_stay="image/toolbar_hover.png" image_down="image/toolBar_pushed.png" image_check="image/toolBar_pushed.png" />
+    <button type="id" id="@IDB_TAB2" name="CSS_TAB2" bFocus="false" bTransparent="true" textColor="#FFFFFF" textAlign="center|top" iconAlign="top" icon="image/radar.png" image_leave="image/transparent.png" image_stay="image/toolbar_hover.png" image_down="image/toolBar_pushed.png" image_check="image/toolBar_pushed.png" />
+    <button type="id" id="@IDB_TAB3" name="CSS_TAB3" bFocus="false" bTransparent="true" textColor="#FFFFFF" textAlign="center|top" iconAlign="top" icon="image/sheet.png" image_leave="image/transparent.png" image_stay="image/toolbar_hover.png" image_down="image/toolBar_pushed.png" image_check="image/toolBar_pushed.png" />
+    <button type="id" id="@IDB_TAB4" name="CSS_TAB3" bFocus="false" bTransparent="true" textColor="#FFFFFF" textAlign="center|top" iconAlign="top" icon="image/settings.png" image_leave="image/transparent.png" image_stay="image/toolbar_hover.png" image_down="image/toolBar_pushed.png" image_check="image/toolBar_pushed.png" />
+   
+   
+    <static type="id" id="@IDS_STATIC2" name="CSS_STATIC2" bTransparent="true" textColor="#5A5A5A" />
+    <static type="id" id="@IDS_STATIC3" name="CSS_STATIC3" bTransparent="true" textColor="#FF0000" />
+	<static type="class"  name="CSS_STATIC" bTransparent="true" textColor="#0" />
+	 
+    <button type="class"  name="CSS_BT_COMMON" bFocus="false" textColor="#FFFFFF" bTransparent="true"  bCheck="false" textAlign="top|center"  image_leave="image/b3.png" image_stay="image/b7.png" image_down="image/b3.png"  />
+     <button type="class"  name="CSS_BT_RED" bFocus="false" textColor="#FFFFFF" bTransparent="true"  bCheck="false" textAlign="top|center"  image_leave="image/b6.png" image_stay="image/b7.png" image_down="image/b3.png"  />
+      
+	<button type="class" name="CSS_BUTTON" bFocus="false" textColor="#FFFFFF" bTransparent="true" bCheck="false" textAlign="top|center" image_leave="image/buttonUP.png" image_stay="image/bt2.png" image_down="image/buttonUP3.png" />
+	<button type="id" id="@IDB_PAGE2_BTN1" name="CSS_PAGE2_BTN1" bFocus="false" bTransparent="true" image_leave="image/page2_btn1_leave.png" image_stay="image/page2_btn1_stay.png" image_down="image/page2_btn1_down.png" />
+    
+	<button type="class" name="CSS_DOT_L" bFocus="false" textColor="#FFFFFF" bTransparent="true" bCheck="false" textAlign="top|center" image_leave="image/dot2.png" image_stay="image/dot.png" image_down="image/dot2.png" />
+	<button type="class" name="CSS_DOT_R" bFocus="false" textColor="#FFFFFF" bTransparent="true" bCheck="false" textAlign="top|center" image_leave="image/dot.png" image_stay="image/dot.png" image_down="image/dot2.png" />
+ 
+	<button type="id" id="@ID_BT_WALLOVER" name="CSS_WALLOVER" bFocus="false" textColor="#FFFFFF"  bTransparent="true"  textAlign="top|center" image_leave="image/safari2.png" image_stay="image/safari3.png" image_down="image/safari5.png"  image_check="image/safari2.png" />
+	
+	<button type="class"  name="CSS_BT_L" bFocus="false" textColor="#FFFFFF" bTransparent="true"  bCheck="false" textAlign="top|center"  image_leave="image/btL.png" image_stay="image/btL3.png" image_down="image/btL3.png"  />
+   <button type="class"  name="CSS_BT_R" bFocus="false" textColor="#FFFFFF" bTransparent="true"  bCheck="false" textAlign="top|center"  image_leave="image/btR.png" image_stay="image/btR3.png" image_down="image/btR3.png"  />
+   <button type="class"  name="CSS_BT_L2" bFocus="false" textColor="#FFFFFF" bTransparent="true"  bCheck="false" textAlign="top|center"  image_leave="image/btL4.png" image_stay="image/btL5.png" image_down="image/btL4.png"  />
+   <button type="class"  name="CSS_BT_R2" bFocus="false" textColor="#FFFFFF" bTransparent="true"  bCheck="false" textAlign="top|center"  image_leave="image/btR4.png" image_stay="image/btR5.png" image_down="image/btR4.png"  />
+   
+	
+	<reference>
+        <resources path=".\mainFrame.res" />
+    </reference>
+</style>

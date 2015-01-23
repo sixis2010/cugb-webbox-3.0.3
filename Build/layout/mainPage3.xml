@@ -1,0 +1,9 @@
+#include ".\mainFrame.css"#include ".\mainFrame.res"<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-布局页文件-->
+<page>
+    <picture id="@ID_PAGE3" left="0" top="44" width="320" height="320" styleClass="CSS_PAGE3" eleType="element">
+        <button id="@ID_BT_WALLOVER" left="120" top="111" width="80" height="80" />
+        
+    </picture>
+    <reference />
+</page>

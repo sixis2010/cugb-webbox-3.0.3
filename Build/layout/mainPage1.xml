@@ -1,0 +1,11 @@
+#include ".\mainFrame.css"#include ".\mainFrame.res"<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-布局页文件-->
+<page>
+    <picture id="@ID_PAGE5" left="0" top="44" width="320" height="320" styleClass="CSS_PAGE2" eleType="element">
+        <static id="@ID_USERINFO" left="50" top="40" width="250" height="200" styleClass="CSS_STATIC" />
+    
+        <button id="@ID_BT_LOGOUT" left="59" top="222" width="100" height="47" styleClass="CSS_BT_L" value="注  销"/>
+        <button id="@ID_BT_SVC" left="159" top="222" width="100" height="47" styleClass="CSS_BT_R" value="自服务"/>
+    </picture>
+    <reference/>
+</page>

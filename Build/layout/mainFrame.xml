@@ -1,0 +1,25 @@
+#include ".\mainFrame.css"#include ".\mainFrame.res"<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-布局文件-->
+<window left="0" top="0" width="335" height="495" styleClass="CSS_mainFrame">
+    <NCClient />
+    <client>
+        <picture id="@ID_PAGE1" left="0" top="44" width="320" height="320" styleClass="CSS_BG">
+            <edit id="@ID_EDIT_SID" left="73" top="52" width="170" height="30" styleClass="CSS_EDIT" />
+            <edit id="@ID_EDIT_PSWD" left="73" top="98" width="170" height="30" styleClass="CSS_EDIT" />
+            <button id="@ID_BT_LOGIN" left="59" top="222" width="200" height="47" styleClass="CSS_BT_COMMON" value="登  陆" />
+            <check id="@ID_IPV4" left="207" top="146" width="34" height="21" styleClass="CSS_Check" />
+            <check id="@ID_IPV6" left="207" top="177" width="34" height="21" styleClass="CSS_Check" />
+            <static id="@ID_STATIC2" left="73" top="146" width="66" height="20" styleClass="CSS_STATIC" value="连接 IPV4" />
+            <static id="@ID_STATIC5" left="73" top="178" width="68" height="20" styleClass="CSS_STATIC" value="连接 IPV6" />
+        </picture>
+        <picture id="@ID_PAGE1" left="0" top="390" width="320" height="97" styleClass="CSS_RIBBON">
+            <button id="@IDB_TAB1" left="3" top="7" width="80" height="80" value="登陆网关" />
+            <button id="@IDB_TAB2" left="80" top="7" width="80" height="80" value="WIFI热点" />
+            <button id="@IDB_TAB3" left="159" top="7" width="80" height="80" value="WallOver" />
+            <button id="@IDB_TAB4" left="237" top="7" width="80" height="80" value="选项" />
+        </picture>
+        <button id="@ID_DOT_L" left="141" top="371" width="10" height="10" styleClass="CSS_DOT_L" />
+        <button id="@ID_DOT_R" left="166" top="371" width="10" height="10" styleClass="CSS_DOT_R" />
+    </client>
+    <reference />
+</window>

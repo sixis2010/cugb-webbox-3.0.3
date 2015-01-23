@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="gb2312" ?>
+
+<page>
+    <picture id="@ID_PAGE4" left="0" top="44" width="320" height="350" styleClass="CSS_PAGE" eleType="element">
+	
+		<check id="@ID_AUTOSTARTUP" left="260" top="5" width="34" height="21" styleClass="CSS_Check" />
+        <check id="@ID_AUTOLOGIN2" left="260" top="30" width="34" height="21" styleClass="CSS_Check" />
+        <static id="@ID_STATIC8" left="30" top="5" width="100" height="20" styleClass="CSS_STATIC" value="开机自动启动" />
+        <static id="@ID_STATIC9" left="30" top="30" width="100" height="20" styleClass="CSS_STATIC" value="退出自动注销" />
+		<button id="@ID_BT_RESTORE" left="20" top="60" width="140" height="30" styleClass="CSS_BT_L2" value="还原所有设置" />
+		<button id="@ID_BT_STYLE" left="160" top="60" width="140" height="30" styleClass="CSS_BT_R2" value="反转文字颜色" />
+		
+		<edit id="@ID_EDIT_ORIG" left="20" top="148" width="141" height="30" styleClass="CSS_EDIT" />
+		<edit id="@ID_EDIT_NEW" left="160" top="148" width="141" height="30" styleClass="CSS_EDIT" />
+		<button id="@ID_BT_MODIFY" left="20" top="185" width="140" height="30" styleClass="CSS_BT_L2" value="修改MAC地址"/>
+        <button id="@ID_BT_RESET" left="160" top="185" width="140" height="30" styleClass="CSS_BT_R2" value="还原MAC地址"/>
+		
+		<edit id="@ID_EDIT_D" left="20" top="238" width="94" height="30" styleClass="CSS_EDIT" value = "0" />
+		<edit id="@ID_EDIT_H" left="113" top="238" width="94" height="30" styleClass="CSS_EDIT" value = "0"/>
+		<edit id="@ID_EDIT_M" left="206" top="238" width="94" height="30" styleClass="CSS_EDIT" value = "0"/>
+		<static id="@ID_STATICD" left="90" top="244" width="30" height="30" styleClass="CSS_STATIC" value="天" />
+		<static id="@ID_STATICH" left="170" top="244" width="30" height="30" styleClass="CSS_STATIC" value="小时" />
+		<static id="@ID_STATICM" left="260" top="244" width="30" height="30" styleClass="CSS_STATIC" value="分钟" />
+		<button id="@ID_BT_SHUTDOWN" left="20" top="277" width="140" height="30" styleClass="CSS_BT_L2" value="设定关机计划"/>
+        <button id="@ID_BT_CANCEL" left="160" top="277" width="140" height="30" styleClass="CSS_BT_R2" value="取消定时关机"/>
+
+		<static id="@ID_COPYRIGHT" left="73" top="320" width="220" height="20" styleClass="CSS_STATIC" value="(c) 2013 Dream X Studio"/>
+	</picture>
+	
+    <reference>
+        <style path=".\mainFrame.css" />
+        <resources path=".\mainFrame.res" />
+    </reference>
+</page>

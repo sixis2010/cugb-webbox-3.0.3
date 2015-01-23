@@ -1,0 +1,1 @@
+CreateObject("wscript.shell").run "D:\Code\Webbox\Debug\proxy\goagent.exe",0
